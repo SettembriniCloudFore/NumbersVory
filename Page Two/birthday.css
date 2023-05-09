@@ -1,0 +1,86 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    background-color:  #162c44;
+}
+
+.box{
+    margin-top: 100px;
+    color: gold;
+    display: flex;
+    max-width: 200px;
+    flex-direction: column;
+    gap: 30px;
+  
+}
+
+input[class='date']{
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 3px;
+    border: 5px solid burlywood;
+}
+
+
+.box p:last-of-type{
+    text-decoration: none;
+    margin-left: 5px;
+    font-weight: bolder;
+    color: wheat;
+}
+
+.wrapper{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.time__slot{
+    border: 3px solid burlywood;
+    padding: 50px;
+    background-color: aliceblue;
+    color: black;
+    font-weight: bolder;
+    font-size: 35px;
+    box-shadow: inset 0px 0px 10px 1px  burlywood;
+    border-radius: 3px;
+    
+}
+
+.wrapper__box{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.btn{
+    padding: 10px;
+    max-width: 120px;
+    display: block;
+    margin: auto auto;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    transition: all 0.2s linear;
+    font-weight: bolder;
+    font-size: 17px;
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: #304862;
+    border-radius: 5px;
+}
+
+
+.btn:hover{
+    box-shadow: 0px 0px 4px 0.5px white;
+}
+
+
+.no__birthday__wrapper{
+    background-color: aliceblue;
+    border: 2px solid green;
+    display: none;
+}
